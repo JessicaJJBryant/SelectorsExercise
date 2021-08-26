@@ -1,0 +1,48 @@
+body {
+    background-color: #CED4D8;
+}
+h1 {
+    color: #AC6AC7;
+}
+h2 {
+    color: rgb(255, 165, 0);
+}
+li {
+    color: blue;
+}
+p {
+    background-color: gold;
+}
+/* The directions said to make all inputs with the type of text or email have the border...and those are the only types of input in the html file. If another input were added by a client, this would cover me though. Sorry for the redundancy if I'm over thinking this*/
+input[type="text"],[type="email"] {
+    border: 5px dotted pink;
+}
+.first {
+    background-color: #FFF;
+}
+#important {
+    border: 3px dashed #000ADD;
+}
+div>p {
+    font-size: 30px;
+}
+input[type="email"] {
+    background-color: #808080;
+}
+body>div:nth-of-type(3)>p {
+    background-color: hotpink;
+}
+body>div:nth-of-type(3)>p:last-child {
+    border: 7px solid rgb(255, 255, 255);
+}
+/* This might be overkill when it's the only em: */
+body>div:nth-of-type(3)>p>em {
+    color: seashell;
+    font-size: 25px;
+}
+
+
+
+
+
+
